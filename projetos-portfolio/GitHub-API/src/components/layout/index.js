@@ -1,11 +1,12 @@
 import React from 'react'
 
-function Layout() {
+function Layout({ children }) {
     return (
         <section>
             <header>
-                { children }
+                     header
             </header>
+            {children}
         </section>
     );
 }
